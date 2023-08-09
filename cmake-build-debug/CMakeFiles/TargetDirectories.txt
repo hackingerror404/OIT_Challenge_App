@@ -1,0 +1,3 @@
+C:/Users/hacki/CLionProjects/OIT_Challenge/cmake-build-debug/CMakeFiles/OIT_Challenge.dir
+C:/Users/hacki/CLionProjects/OIT_Challenge/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/hacki/CLionProjects/OIT_Challenge/cmake-build-debug/CMakeFiles/rebuild_cache.dir
