@@ -51,19 +51,19 @@ build cmake_object_order_depends_target_OIT_Challenge: phony || CMakeFiles/OIT_C
 
 build CMakeFiles/OIT_Challenge.dir/main.cpp.obj: CXX_COMPILER__OIT_Challenge_Debug C$:/Users/hacki/CLionProjects/OIT_Challenge/main.cpp || cmake_object_order_depends_target_OIT_Challenge
   DEP_FILE = CMakeFiles\OIT_Challenge.dir\main.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
+  FLAGS = -static-libstdc++ -static-libgcc -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\OIT_Challenge.dir
   OBJECT_FILE_DIR = CMakeFiles\OIT_Challenge.dir
 
 build CMakeFiles/OIT_Challenge.dir/TicTacToeBoard.cpp.obj: CXX_COMPILER__OIT_Challenge_Debug C$:/Users/hacki/CLionProjects/OIT_Challenge/TicTacToeBoard.cpp || cmake_object_order_depends_target_OIT_Challenge
   DEP_FILE = CMakeFiles\OIT_Challenge.dir\TicTacToeBoard.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
+  FLAGS = -static-libstdc++ -static-libgcc -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\OIT_Challenge.dir
   OBJECT_FILE_DIR = CMakeFiles\OIT_Challenge.dir
 
 build CMakeFiles/OIT_Challenge.dir/TicTacDisplay.cpp.obj: CXX_COMPILER__OIT_Challenge_Debug C$:/Users/hacki/CLionProjects/OIT_Challenge/TicTacDisplay.cpp || cmake_object_order_depends_target_OIT_Challenge
   DEP_FILE = CMakeFiles\OIT_Challenge.dir\TicTacDisplay.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
+  FLAGS = -static-libstdc++ -static-libgcc -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\OIT_Challenge.dir
   OBJECT_FILE_DIR = CMakeFiles\OIT_Challenge.dir
 
@@ -76,7 +76,8 @@ build CMakeFiles/OIT_Challenge.dir/TicTacDisplay.cpp.obj: CXX_COMPILER__OIT_Chal
 # Link the executable OIT_Challenge.exe
 
 build OIT_Challenge.exe: CXX_EXECUTABLE_LINKER__OIT_Challenge_Debug CMakeFiles/OIT_Challenge.dir/main.cpp.obj CMakeFiles/OIT_Challenge.dir/TicTacToeBoard.cpp.obj CMakeFiles/OIT_Challenge.dir/TicTacDisplay.cpp.obj
-  FLAGS = -g
+  FLAGS = -static-libstdc++ -static-libgcc -g
+  LINK_FLAGS = -static
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\OIT_Challenge.dir
   POST_BUILD = cd .

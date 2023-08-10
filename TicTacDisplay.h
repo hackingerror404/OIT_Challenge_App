@@ -18,12 +18,10 @@ private:
     void computerTurn();
     bool checkIfGameOver();
     void gameEnd();
-    void update();
 public:
     TicTacDisplay();
     TicTacToeBoard ticTacToeBoard;
     void startGame();
 };
-
 
 #endif //OIT_CHALLENGE_TICTACDISPLAY_H

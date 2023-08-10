@@ -3,6 +3,7 @@
 //
 #include <vector>
 #include <random>
+#include <ctime>
 #include "TicTacToeBoard.h"
 
 TicTacToeBoard::TicTacToeBoard() {
